@@ -1,0 +1,42 @@
+#buttonsdiv{
+    justify-content: center;
+    display: flex;
+    gap: 60px;
+    padding:100px;
+    
+    border: 1px solid whitesmoke;
+    width: 600px;
+    margin-left: 220px;
+    border-radius: 10px;
+    
+}
+.result{
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 36px;
+    color:#ffcc00
+}
+body{
+    background-color: #1e1e2f;
+}
+#firstnumber{background-color: #2d2d44; color: #f0f0f0; margin-left: 20px; height: 25px; border: none;
+margin-bottom: 20px; margin-top: 50px;}
+#secondnumber{background-color: #2d2d44; color: #f0f0f0; height: 25px; border: none;}
+.style{
+    background-color: #4c4cff;
+    color: #ffffff;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+#formatofinputs{
+    margin-left: 35%;
+
+}
+.labelstyle{
+    color: whitesmoke;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

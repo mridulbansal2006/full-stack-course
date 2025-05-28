@@ -1,0 +1,116 @@
+#light {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    height: 60px;
+    width: 80px;
+    border: 2px solid red;
+}
+
+#dark {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    height: 60px;
+    width: 80px;
+    border: 2px solid red;
+}
+
+#hacker {
+    font-family: monospace;
+    background-color: rgb(61, 61, 61);
+    color: rgb(90, 255, 90);
+    border-radius: 5px;
+    height: 60px;
+    width: 80px;
+    border: 2px solid red;
+}
+
+body {
+    transition: all 0.5s ease;
+}
+
+#heading,
+#light,
+#dark,
+#hacker {
+    transition: all 0.5s ease;
+}
+
+#hacker:hover {
+    cursor: pointer;
+}
+
+#light:hover {
+    cursor: pointer;
+}
+
+#dark:hover {
+    cursor: pointer;
+}
+
+
+#buttonsdiv {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 50px;
+}
+
+#heading {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.bodynew {
+    background-color: antiquewhite;
+}
+
+.lighttheme {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    height: 60px;
+    width: 80px;
+    border: 2px solid red;
+}
+
+.bodydark {
+    background-color: black;
+
+}
+
+.darktheme {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    height: 60px;
+    width: 80px;
+    border: 2px solid red;
+}
+
+.headingdark {
+    color: white;
+}
+
+.headinglight {
+    color: black;
+}
+
+.headinghacker {
+    color: rgb(90, 255, 90);
+}
+
+.bodyhacker {
+    background-color: rgb(19, 36, 30);
+}
+
+.hackertheme {
+    font-family: monospace;
+    background-color: rgb(61, 61, 61);
+    color: rgb(90, 255, 90);
+    border-radius: 5px;
+    height: 60px;
+    width: 80px;
+    border: 2px solid red;
+}

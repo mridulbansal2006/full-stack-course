@@ -1,0 +1,65 @@
+how to create a app using vite ; command is 
+
+npm create vite@latest myapp # where myapp is the file name , which you can change
+
+after that you need to select the frame work react and then there , you need to select javascript
+
+then you need to go to src folder in the myapp folder , you need only main.jsx file 
+
+where the code is this-
+
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import App from './App.jsx'
+
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+)
+
+
+else all file is useless 
+
+the index.html file is the main file which runs all the code ; 
+
+and the command to run the file is ; 'npm run dev'
+
+================
+
+you need to export the functions ; export default functionsname  ; these functions are yours components 
+
+and where you need to import ; import functionname from '/file path'
+
+and in the main.jsx file ;
+
+you need to put the components in the order in which order you want to put the file ; 
+
+.A component is a reusable, independent piece of UI.
+
+RULES FOR COMPONENTS ; 
+   1) always the function name should be capital & file name 
+   2) where you make the vite app , you need to use jsx file only nothing else 
+
+
+#  React Rendering Flow
+index.html ➝ main.jsx ➝  ➝ YourComponents
+
+✅ 6. Common Mistakes to Avoid
+| Mistake                 | Fix                                  |
+| ----------------------- | ------------------------------------ |
+| `class="abc"`           | Use `className="abc"` instead        |
+| Export missing          | Use `export default Component`       |
+| Wrong file extension    | Use `.jsx`, not `.js` for components |
+| Component not rendering | Check if imported & used in JSX      |
+
+
+ hooks 
+ use state 
+it is used here , to change the entire Ui 
+in usestate , first you need to use let [variable name in ui , function name]=usestate(by default value)
+
+the by deafult value can be anything here , no changes can be happen here 
+
+  

@@ -1,0 +1,129 @@
+#firstborder{
+    position: relative;
+    background-color: black;
+    height: 800px;
+    width: 900px;
+    border: 1px solid rgb(150, 146, 146);
+    top: 20px;
+    right: 160px;
+    left: 160px;
+}
+
+#secondborder{
+    position: absolute;
+    background-color: aliceblue;
+    height: 700px;
+    width: 800px;
+    border: 1px solid black;
+    top: 50px;
+    right: 90px;
+    left: 60px;
+}
+#thirdborder{
+    position: absolute;
+    background-color: rgb(17, 84, 143);
+    height: 600px;
+    width: 700px;
+    border: 1px solid black;
+    top: 50px;
+    right: 90px;
+    left: 60px;
+}
+#fourthborder{
+    position: absolute;
+    background-color: rgb(17, 143, 84);
+    height: 500px;
+    width: 600px;
+    border: 1px solid black;
+    top: 50px;
+    right: 90px;
+    left: 60px;
+}
+#fifthborder{
+    position: absolute;
+    background-color: rgb(143, 17, 86);
+    height: 400px;
+    width: 500px;
+    border: 1px solid black;
+    top: 50px;
+    right: 90px;
+    left: 60px;
+}
+#sixthborder{
+    position: absolute;
+    background-color: rgb(143, 17, 17);
+    height: 300px;
+    width: 400px;
+    border: 1px solid black;
+    top: 50px;
+    right: 90px;
+    left: 60px;
+}
+/* now the circle part also */
+#firstborderradius{
+    position: relative;
+    background-color: black;
+    height: 800px;
+    width: 800px;
+    border: 1px solid rgb(150, 146, 146);
+    top: 20px;
+    right: 160px;
+    left: 250px;
+    border-radius: 50%;
+}
+#secondborderradius{
+    position: absolute;
+    background-color: aliceblue;
+    height: 700px;
+    width: 700px;
+    border: 1px solid black;
+    top: 50px;
+    right: 90px;
+    left: 50px;
+    border-radius: 50%;
+}
+#thirdborderradius{
+    position: absolute;
+    background-color: rgb(17, 84, 143);
+    height: 600px;
+    width: 600px;
+    border: 1px solid black;
+    top: 50px;
+    right: 90px;
+    left: 50px;
+    border-radius: 50%;
+}
+#fourthborderradius{
+    position: absolute;
+    background-color: rgb(17, 143, 84);
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    top: 50px;
+    right: 90px;
+    left: 50px;
+    border-radius: 50%;
+}
+#fifthborderradius{
+    position: absolute;
+    background-color: rgb(143, 17, 86);
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    top: 50px;
+    right: 90px;
+    left: 50px;
+    border-radius: 50%;
+}
+#sixthborderradius{
+    position: absolute;
+    background-color: rgb(143, 17, 17);
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    top: 50px;
+    right: 60px;
+    left: 50px;
+    border-radius: 50%;
+}
+

@@ -1,0 +1,43 @@
+#bagroundimage {
+    background-image: url(/src/photosforbody/intro-bg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+#bagroundiamgetitle {
+    padding-top: 180px;
+    text-transform: uppercase;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(172, 161, 161);
+}
+
+#bgpara {
+    text-align: center;
+    color: rgb(92, 92, 92);
+    font-size: large;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+#button {
+    width: 150px;
+    height: 45px;
+    border-radius: 25px;
+    margin-left: 530px;
+    margin-top: 50px;
+    border: none;
+    background: 
+    linear-gradient(to right, rgb(83, 136, 206), rgb(87, 78, 207), rgb(36, 36, 170));
+    color: aliceblue;
+    font-size: 16px;
+    transition: all ease 500ms;
+}
+#button:hover{
+    transform: scale(1.15);
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    cursor: pointer;
+}

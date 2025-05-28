@@ -1,0 +1,126 @@
+#ourplan {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 750;
+    padding-top: 40px;
+}
+
+.boxheaderstyling {
+    color: rgb(21, 21, 148);
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.textstyling {
+    font-size: 14px;
+}
+
+.dollarstyling {
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.firsttextstyling {
+    font-size: 15px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+.buttonstyling {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(21, 21, 148);
+    border: none;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#body {
+    background-color: whitesmoke;
+}
+
+#freebox {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    border: 1px solid whitesmoke;
+    display: inline-block;
+    width: 22%;
+    border-radius: 10px;
+    padding-left: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.textboxstyling {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.headertextgap {
+    padding-bottom: 10px;
+}
+
+#probox {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    border: 1px solid rgb(255, 187, 0);
+    display: inline-block;
+    width: 22%;
+    border-radius: 10px;
+    padding-left: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+#recommendedposition {
+    position: absolute;
+    top: -10px;
+    left: 185px;
+
+}
+
+#recommendedstyle {
+    background-color: rgb(255, 187, 0);
+    color: rgb(21, 21, 148);
+    text-transform: capitalize;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    padding-top: 10px;
+    border: none;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+#premiumbox {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    border: 1px solid whitesmoke;
+    display: inline-block;
+    width: 22%;
+    border-radius: 10px;
+    padding-left: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+    gap: 30px;
+}

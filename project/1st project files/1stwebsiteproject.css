@@ -1,0 +1,136 @@
+.navheader a{font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;background-color: transparent;text-decoration: none;outline: 0;}
+.sidenav a{ font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    color: #555;
+    font-size: 15px;
+    font-weight: 400; text-decoration: none;outline: 0; margin-left: 16px;} 
+    .sidenav{padding-top: 6px; padding-left: 100px;}
+.sidenav a:hover{
+    color: brown;
+}
+
+.firstheading{
+    margin: 0 0 20px;
+    font-weight: 800;
+    font-size: 36px;
+    color: #333; text-align: center;font-family: "Raleway", sans-serif; padding-bottom: 36px;}
+.icon{height: 100px ; width: 100px;border-radius: 50%;background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);border-color: white; margin-left: 50px;}
+.text{font-size: 20px;
+    font-weight: 600;
+    color: #333;font-family: "Raleway", sans-serif; text-align: center;}
+.paratext{font-size: 15px;margin: 0 0 10px;box-sizing: border-box; text-align: center;}
+#features{background: #f6f6f6}
+#aboutphoto{width: 380px;
+    margin-top: 30px;
+    background: #fff;}
+#aboutheader{font-weight: 800;
+    font-size: 30px;
+    color: #333;
+    font-family:"Raleway", sans-serif; margin-left: 210px;}
+#aboutheader3{font-size: 22px;font-weight: 600;
+    color: #333;font-family: "Raleway", sans-serif;margin-left: 210px;}
+.aboutheader3text{font-family:sans-serif; font-size: xx-small;}
+.paratext3{font-size: 15px;margin: 0 0 10px;box-sizing: border-box; text-align: center;}
+#ABOUT{display:flex; padding-top: 60px; padding-bottom: 60px;}
+/* dddddddddddddddffffffffffffffffffffffffffffffffffffffffffffffffffffffdd */
+#ourservice{ background-image: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+    height: 900px;
+    width: 100%;}
+#ourserviceheadertext{color: aliceblue; font-family: 'Segoe UI'; font-size: 42px; margin-left: 160px;}
+#ourserviceparatext{font-size: 18px;font-family:  'Arial', sans-serif;
+color: antiquewhite; font-weight: 100;}
+#ourservicedivtextbox{margin-left: 370px; padding-top: 90px;}
+.servicebuttonstyles{height: 130px;width: 130px;border-radius: 50%;
+    background-image: linear-gradient(to right, hsl(234, 100%, 69%) 0%, #5ca9fb 100%); border: none; margin-left: 110px;}
+.fa-wordpress{font-size: 60px; color:white; }
+.serviceheadertextstyle{color: aliceblue; font-family: 'Segoe UI'; font-size: 25px;
+font-weight: 400; text-align: center;}
+.serviceparatextstyle{font-size: 15px;font-family:  'Arial', sans-serif;
+    color: antiquewhite; font-weight: 50; text-align: center;}
+
+.fa-cart-arrow-down{font-size: 50px; color:white;}
+.fa-cloud-arrow-down{font-size: 50px; color:white;}
+#rowone{display: flex; justify-content: center; gap: 80px
+    ; padding-top: 60px;}
+.fa-plane-departure{font-size: 50px; color:white;}
+.fa-chart-pie{font-size: 50px; color:white;}
+#rowtwo{display: flex; justify-content: center; gap: 80px
+    ; padding-top: 60px;}
+.fa-language{font-size: 50px; color:white;}
+/* ddddddddddddddddd *//* ddddddddddddddddd *//* ddddddddddddddddd *//* ddddddddddddddddd */
+#galleryheadertext{font-size: 17px;text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin-top: 0px;}
+#testimonialheadertext {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+.imagetesto{height: 60px;width: 60px; border-radius: 50%;}
+.testimonialtext{font-size: 14px;
+    font-style: italic;margin: 0 0 10px;color: #777;}
+.testimonialnametext{font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, 
+    Helvetica Neue, sans-serif;}
+#teamheader{padding-left: 38%;padding-top: 5%;text-transform: uppercase;
+    margin: 0 0 20px;
+    font-weight: 800;
+    font-size: 36px;
+    color: #333;font-family: "Raleway", sans-serif;}
+#teampara{padding-left: 30%;text-shadow: 100px;font-size: 18px;}
+.teamh3{padding-left: 75px;font-size: 18px;
+    color: #333;
+    font-weight: 600;font-family: "Raleway", sans-serif; text-align: left;}
+.teamh5{padding-left: 72px; text-align: left; padding-top: 12px;}
+
+
+#mridul {
+    color: white;
+    padding-left: 120px;
+    padding-top: 40px;
+}
+
+#text {
+    padding-top: 60px;
+    padding-left: 110px;
+    color: white;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+#sty {
+    border-radius: 30px;
+    padding: 10px;
+    background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+    border-color: white;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.col{color: white;}
+.button{font-size:13px ;width: 70px;height: 70px;
+border-radius: 50%; background-color:rgb(102, 102, 255) ;font-style:normal;color: white;
+border-color: white;}
+
+
+
+#foot{text-align: center;color: #888;
+    font-size: 14px;
+}
+
+i.abc{font-family:FontAwesome;color:#5ca9fb;font-size:11px;font-weight:300;}
+
+#herosectio{background-image: url('photosforbigproject/intro-bg.jpg'); width: 100%; 
+height: 800px; background-size: cover;}
+#herosectioheadertext{font-family: 80px;}
+#herocontainer{padding-top: 250px; justify-items: center;}
+#herosectioheadertext{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: rgb(129, 126, 126);
+font-size: 90px; text-transform: uppercase; text-align: center;}
+#herosectioparatext{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: rgb(129, 126, 126);
+    font-size: 20px; text-transform: capitalize; text-align: center;font-weight: 100;}
+#herolearnmore{background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 15px; width: 150px;
+height: 50px; border-radius: 40px; border: none; font-weight: 500; color: white;}
