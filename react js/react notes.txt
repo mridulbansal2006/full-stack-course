@@ -41,7 +41,8 @@ you need to put the components in the order in which order you want to put the f
 RULES FOR COMPONENTS ; 
    1) always the function name should be capital & file name 
    2) where you make the vite app , you need to use jsx file only nothing else 
-
+   3) if we want to use , js content inside the return we must use 
+     {} , so that we access the element
 
 #  React Rendering Flow
 index.html ➝ main.jsx ➝  ➝ YourComponents
@@ -55,11 +56,32 @@ index.html ➝ main.jsx ➝  ➝ YourComponents
 | Component not rendering | Check if imported & used in JSX      |
 
 
- hooks 
+hooks 
  use state 
 it is used here , to change the entire Ui 
 in usestate , first you need to use let [variable name in ui , function name]=usestate(by default value)
 
 the by deafult value can be anything here , no changes can be happen here 
 
-  
+====
+React’s Fiber AND Reconciliation  
+
+Virtual DOM → A copy of the real DOM, used to track changes smartly.
+Reconciliation → Compares old and new virtual DOMs to update only the changed parts.
+Fiber → React’s newer smart brain that optimizes updates, prioritizes tasks, cancels useless ones.
+Hydration → Process where static HTML becomes interactive once JavaScript kicks in.
+Keys in Lists → Always use unique keys to help React differentiate items and update them efficiently.
+====
+
+Props 
+first install  npm i react-icons --save , to get the icons here 
+
+===== 
+how to install tailwind css in the vite app 
+
+first step= install  npm install -D tailwindcss postcss autoprefixer , in the project 
+and then install = npx tailwind init -p 
+
+
+
+

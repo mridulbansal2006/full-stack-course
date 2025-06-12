@@ -1,0 +1,65 @@
+.aboutimage{
+    background-image: url('/about.jpg');
+;
+    width: 450px;
+    height: 350px;
+    background-size: cover;
+    margin-top: 45px;
+    
+}
+#mainbox{
+    display: flex;
+    padding-top: 60px;
+
+    justify-content: space-evenly;
+    padding-bottom:60px;
+    
+}
+
+#fourtickdisplay{
+    display: flex;
+    gap: 90px;
+    margin-left: 20px;
+}
+#textbox{
+    margin-bottom: 30px;
+}
+#aboutus{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(66, 65, 65);
+    text-transform: uppercase;
+    position: relative;
+}
+#aboutus::after{
+    content: '';
+    display: block;
+   width: 60px;
+   height: 4px;
+   background: #4a90e2;
+  border-radius: 2px;
+}
+#aboutustextpara{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(145, 143, 143);
+    font-size: small;
+}
+#whychooseusheading{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(31, 30, 30);
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.tick-icon{
+        color: #4a90e2;
+        font-size: 13px;
+}
+.secondboxtexts{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(145, 143, 143);
+    font-size: small;
+}
+.firstboxtexts{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(145, 143, 143);
+    font-size: small;
+}

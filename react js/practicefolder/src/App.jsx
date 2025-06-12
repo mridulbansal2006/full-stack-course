@@ -14,7 +14,7 @@ function App(){
   }
   return(
     <>
-    <h1>mridul</h1>
+    <h1 class='items-center'>mridul</h1>
     <h2>counter value :{counter}</h2>
     <button
       onClick={addvalue}>add value</button><br /><br />

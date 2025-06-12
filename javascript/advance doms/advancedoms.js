@@ -164,5 +164,5 @@
 // promise is for eventual complettion of tasks , it is an object in js , its is a solution of callback hell 
 // let promise= new Promise((resolve , reject)=>{})  // function with 2 handlers  , resolve and reject are callback 
 // provided by js 
-
-
+//
+//
